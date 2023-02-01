@@ -1,1 +1,12 @@
-
+2023-02-01 12:55:33,620 - INFO - Home page accessed
+2023-02-01 12:56:09,368 - INFO - Home page accessed
+2023-02-01 14:18:09,556 - INFO - Home page accessed
+2023-02-01 14:18:29,711 - INFO - Displaying all ownerships
+2023-02-01 14:18:36,203 - INFO - Displaying all owners
+2023-02-01 14:18:44,182 - INFO - Displaying all pets
+2023-02-01 14:19:05,067 - INFO - Displaying all owners
+2023-02-01 14:19:17,762 - INFO - Displaying all ownerships
+2023-02-01 14:19:24,473 - INFO - Owner of pet SomeDog is now Tanuj
+2023-02-01 14:19:24,479 - INFO - Displaying all ownerships
+2023-02-01 14:24:39,522 - INFO - Trying to insert pet Harsh in table pets
+2023-02-01 14:24:39,565 - INFO - Pet Harsh of category Fish and price 2000 added
