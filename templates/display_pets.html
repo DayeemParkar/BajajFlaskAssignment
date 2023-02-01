@@ -1,0 +1,27 @@
+{% extends "pet_base.html" %}
+{% block body %}
+    {% if rows %}
+    <div class="center">
+        <table border="1" style="border-collapse:collapse;">
+            <tr>
+                <th>Pet Id</th>
+                <th>Pet Name</th>
+                <th>Pet Price</th>
+                <th>Pet Category</th>
+                <th>Action</th>
+            </tr>
+            {% for row in rows %}
+            <tr>
+                <td>{{ row[0] }}</td>
+                <td>{{ row[1] }}</td>
+                <td>{{ row[2] }}</td>
+                <td>{{ row[3] }}</td>
+                <td><a href="{{ url_for('modifyPet', petId=row[0]) }}">Modify</a> | <a href="{{ url_for('deletePet', petId=row[0]) }}">Delete</a></td>
+            </tr>
+            {% endfor %}
+        </table>
+    </div>
+    {% else %}
+    No data to display
+    {% endif %}
+{% endblock %}
