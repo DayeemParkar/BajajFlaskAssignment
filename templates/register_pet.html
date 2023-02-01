@@ -1,10 +1,12 @@
 {% extends "pet_base.html" %}
 {% block body %}
     <div class="center">
-        {% for message in get_flashed_messages() %}
-            {{ message }}
-            <br />
-        {% endfor %}
+        <div style="text-align: center;">
+            {% for message in get_flashed_messages() %}
+                {{ message }}
+                <br />
+            {% endfor %}
+        </div>
         <form action="" method="POST">
             {{ form.hidden_tag() }}
             {{ form.name.label }}
